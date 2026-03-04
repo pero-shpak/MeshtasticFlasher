@@ -1,0 +1,7 @@
+customtkinter>=5.2.0
+meshtastic>=2.7.7
+pyserial>=3.5
+pypubsub>=4.0.3
+protobuf>=4.21.0
+python-dotenv>=1.0.0
+pyinstaller>=5.0
