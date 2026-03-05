@@ -1,0 +1,11 @@
+{
+  "region": "RU",
+  "modem_preset": "LONG_FAST",
+  "hop_limit": 7,
+  "rebroadcast_mode": "KNOWN_ONLY",
+  "smart_distance": 100,
+  "frequency_slot": 0,
+  "channel_name": "",
+  "position_precision": 15,
+  "encryption_key": ""
+}

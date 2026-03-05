@@ -1,0 +1,16 @@
+services:
+  builder-image:
+    image: meshtastic-builder:latest
+    build:
+      context: ./build
+      dockerfile: Dockerfile
+    profiles:
+      - build-image
+
+  compiler:
+    image: meshtastic-builder:latest
+    volumes:
+      - ./src:C:/app/src
+      - ./dist:C:/app/dist
+      - ./build:C:/build
+    command: [ "cmd", "/C", "C:\\build\\build-script.cmd" ]
